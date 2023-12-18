@@ -1,0 +1,38 @@
+.wrap {
+    width: 900px;
+    height: 875px;
+    font-size: 0;
+    box-sizing: content-box;
+    border: 5px solid #070707;
+    margin: 0 auto;
+}
+
+.wrap div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 1px solid #070707;
+    font-size: 30px;
+    font-weight: bold;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.black-block {
+    background: #000000;
+}
+.wrap .without-border {
+    border: none;
+}
+.wrap .thin {
+    width: 50px;
+}
+.wrap .low {
+    height: 40px;
+    padding: 3px;
+}
+.wrap .low > p {
+    margin: 0;
+}
